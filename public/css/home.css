@@ -2,13 +2,25 @@ body {
 	background-color: #000;
 }
 
-.bg {
+.logo {
 	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 100%;
-	height: 500px;
+}
+
+.logo img {
+	width: 350px;
+}
+
+.sec-text {
+	text-align: center;
+	color: #fff;
+	margin-top: -50px;
+}
+
+.fa-3x {
+	margin: 15px;
 }
 
 @media only screen and (min-width: 375px) {
