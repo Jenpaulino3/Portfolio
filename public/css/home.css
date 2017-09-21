@@ -1,5 +1,6 @@
 body {
 	background-color: #000;
+	font-size: 16px;
 }
 
 .logo {
@@ -24,14 +25,22 @@ body {
 }
 
 @media only screen and (min-width: 375px) {
-	.bg {
-		/*height: 350px;*/
+	.logo img {
+		width: 400px;
+	}
+}
+
+@media only screen and (min-width: 400px) {
+	.logo img {
+		width: 500px;
 	}
 }
 
 @media only screen and (min-width: 768px) {
-	.bg {
-		/*height: 500px;*/
+	.sec-text {
+		text-align: center;
+		color: #fff;
+		margin-top: -75px;
 	}
 }
 
