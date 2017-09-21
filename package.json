@@ -1,0 +1,40 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Jennifer Paulino Web Developer Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jenpaulino3/portfolio.git"
+  },
+  "keywords": [
+    "Jennifer",
+    "Paulino",
+    "jennifer",
+    "paulino",
+    "jenpaulino3",
+    "web",
+    "developer",
+    "web",
+    "developer",
+    "nyc",
+    "websites",
+    "developers",
+    "full",
+    "stack"
+  ],
+  "author": "Jennifer Paulino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jenpaulino3/portfolio/issues"
+  },
+  "homepage": "https://github.com/Jenpaulino3/portfolio#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0"
+  }
+}
