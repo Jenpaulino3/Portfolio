@@ -1,6 +1,6 @@
 body {
 	background-color: #000;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .logo {
@@ -47,6 +47,8 @@ body {
 
 #mc_embed_signup input.email,
 #mc_embed_signup .button {
+	width: 200px;
+	margin-left: 10px;
 	border-radius: 50px;
 }
 
@@ -63,13 +65,16 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+	.logo img {
+	    width: 100%;
+	}
 	.content {
 		text-align: center;
 		color: #fff;
-		margin-top: -75px;
+		margin-top: -100px;
 	}
-	#mc_embed_signup{
-		padding: 0 100px;
+	#mc_embed_signup_scroll {
+		display: inline-flex;
 	}
 }
 
@@ -77,8 +82,10 @@ body {
 	.logo img {
 		width: 450px;
 	}
-	#mc_embed_signup{
-		padding: 5px 0;
-		margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 992px) {
+	.logo img {
+		width: 500px;
 	}
 }
