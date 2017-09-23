@@ -14,14 +14,14 @@ body {
 	width: 350px;
 }
 
-.sec-text {
+.content {
 	text-align: center;
 	color: #fff;
 	margin-top: -50px;
 }
 
 .fa-3x {
-	margin: 15px;
+	margin: 0 15px 15px;
 }
 
 #mc_embed_signup{ 
@@ -34,6 +34,20 @@ body {
 #mc_embed_signup .button {
 	background-color: #9ae6b5;
 	color: #000;
+}
+
+#mc_embed_signup .button:hover {
+	background-color: #fc918e;
+	color: #000;
+}
+
+#mc_embed_signup .button:hover {
+    background-color: #fb908d;
+}
+
+#mc_embed_signup input.email,
+#mc_embed_signup .button {
+	border-radius: 50px;
 }
 
 @media only screen and (min-width: 375px) {
@@ -49,7 +63,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-	.sec-text {
+	.content {
 		text-align: center;
 		color: #fff;
 		margin-top: -75px;
